@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 44%),
+    url(./grid-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+h1{
+    font-size: 100px;
+    margin-bottom: 150px;
+}
+p{
+    font-size: 70px;
+}
+
+.download-link {
+    margin:20px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+}
